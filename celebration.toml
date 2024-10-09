@@ -84,7 +84,7 @@
 
 ## EDITOR UI COLORS
 
-"ui.background" = { bg = "#222F3E" }
+# "ui.background" = { bg = "#222F3E" }
 "ui.text" = "#bebebe"
 "ui.window" = "#bebebe"
 

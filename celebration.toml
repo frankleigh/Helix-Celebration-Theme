@@ -14,7 +14,7 @@
 # Diagnostics
 "diagnostic" = { underline = { color = "#bebebe", style = "curl" } }
 "diagnostic.error" = { underline = { color = "#bebebe", style = "curl" } }
-"error" = "red"
+"error" = "#ff0000§"
 "diagnostic.hint" = { underline = { color = "#bebebe", style = "curl" } }
 "hint" = "#bebebe"
 "diagnostic.info" = { underline = { color = "#bebebe", style = "curl" } }
@@ -30,26 +30,26 @@
 "diff.plus" = "#bebebe"
 
 # Functions
-"function" = "#FF645E"
+"function" = "#ff645e"
 "function.builtin" = "#bebebe"
-"function.method" = "#FF645E"
-"function.macro" = "white"
-"function.special" = "white"
+"function.method" = "#ff645e"
+"function.macro" = "#ffffff"
+"function.special" = "#ffffff"
 
 # Git
 "git.delta.moved" = "#bebebe"
 
 # Keywords
-"keyword" = "#FCE231"
-"keyword.control.conditional" = "#FCE231"
-"keyword.control.exception" = "#FCE231"
-"keyword.control.repeat" = "#FCE231"
+"keyword" = "#fce231"
+"keyword.control.conditional" = "#fce231"
+"keyword.control.exception" = "#fce231"
+"keyword.control.repeat" = "#fce231"
 "keyword.directive" = "yellow"
-"keyword.function" = "#FF645E"
-"keyword.operator" = "#FCE231"
+"keyword.function" = "#ff645e"
+"keyword.operator" = "#fce231"
 "keyword.return" = "#bebebe"
 "keyword.storage.modifier" = "#bebebe"
-"keyword.storage.type" = "#FCE231"
+"keyword.storage.type" = "#fce231"
 
 # Punctuation
 "punctuation" = "#bebebe"
@@ -58,13 +58,13 @@
 "punctuation.special" = "#bebebe"
 
 # Strings
-"string" = "#32D924"
+"string" = "#32d924"
 "string.escape" = "#bebebe"
 "string.regex" = "#bebebe"
 "string.special" = "yellow"
 
 # Types
-"type" = "#56ABFF"
+"type" = "#56abff"
 "type.builtin" = "#bebebe"
 
 # Variables
@@ -72,14 +72,14 @@
 "variable.builtin" = "#bebebe"
 "variable.other.member" = "#bebebe"
 "variable.parameter" = "#bebebe"
-"attribute" = "#C8C8FF"
+"attribute" = "#c8c8ff"
 
-# Misc.
+# Misc
 "label" = "#bebebe"
-"namespace" = "#B2B2B3"
+"namespace" = "#b2b2b3"
 "operator" = "#c4c4c4"
 "special" = "#bebebe"
-"tag" = "#56ABFF"
+"tag" = "#56abff"
 "comment" = { fg = "#777777", modifiers = ["italic"] }
 
 ## EDITOR UI COLORS
@@ -93,28 +93,28 @@
 "ui.debug.breakpoint" = "#bebebe"
 
 # Popus and menus
-"ui.menu" = { bg = "#334B65" }
+"ui.menu" = { bg = "#334b65" }
 "ui.menu.scroll" = { fg = "#bebebe", bg = "#333333" }
 "ui.menu.selected" = { fg = "#bebebe", bg = "#333333" }
 "ui.popup" = { bg = "#000000" }
 "ui.popup.info" = { bg = "grey" }
-"ui.help" = { bg = "red" }
+"ui.help" = { bg = "#1c3c56" }
 "ui.text.focus" = { fg = "#bebebe", bg = "#333333" }
 
 # Gutter
-"ui.gutter" = "#767BA5"
-"ui.linenr" = "#767BA5"
-"ui.linenr.selected" = "#ff00ff"
+"ui.gutter" = "#767ba5"
+"ui.linenr" = "#888888"
+"ui.linenr.selected" = "#cccccc"
 
 # Cursor
-"ui.cursor" = { fg = "#D8DEE9", modifiers = [ "reversed" ] }
+"ui.cursor" = { fg = "#d8dee9", modifiers = [ "reversed" ] }
 "ui.cursorcolumn.primary" = { bg = "#3B4252" }
 
-"ui.selection" = { bg = "#444444" }
+"ui.selection" = { bg = "#505050" }
 "ui.highlight" = { bg = "#444444" }
 
 # Statusline
-"ui.statusline" = {  bg = "#384A63" }
+"ui.statusline" = {  bg = "#384a63" }
 "ui.statusline.inactive" = { fg = "#bebebe", bg = "#333333" }
 "ui.statusline.insert" = { fg = "#bebebe", bg = "#999999" }
 "ui.statusline.normal" = { fg = "#bebebe", bg = "#999999" }
@@ -123,8 +123,8 @@
 # Virtual/invisible text
 
 # Bufferline
-"ui.bufferline" = { fg = "#bebebe", bg = "#384A63#" }
-"ui.bufferline.active" = { fg = "white", bg = "red", underline = { color = "#333", style = "line" }, modifiers = [ "italic" ] }
+"ui.bufferline" = { fg = "#bebebe", bg = "#384a63" }
+"ui.bufferline.active" = { fg = "#ffffff", bg = "#ff0000", underline = { color = "#333333", style = "line" }, modifiers = [ "italic" ] }
 
 # Markup
 "markup.heading" = "#bebebe"

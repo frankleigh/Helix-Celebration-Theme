@@ -14,7 +14,7 @@
 # Diagnostics
 "diagnostic" = { underline = { color = "#bebebe", style = "curl" } }
 "diagnostic.error" = { underline = { color = "#bebebe", style = "curl" } }
-"error" = "#ff0000§"
+"error" = "#ff0000"
 "diagnostic.hint" = { underline = { color = "#bebebe", style = "curl" } }
 "hint" = "#bebebe"
 "diagnostic.info" = { underline = { color = "#bebebe", style = "curl" } }
@@ -84,7 +84,7 @@
 
 ## EDITOR UI COLORS
 
-# "ui.background" = { bg = "#222F3E" }
+# "ui.background" = { bg = "onf222F3E" }
 "ui.text" = "#bebebe"
 "ui.window" = "#bebebe"
 
